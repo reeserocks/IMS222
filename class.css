@@ -1,0 +1,153 @@
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url("images/dark-wood.jpg");
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #3e773e;
+    background-color: #fff
+}
+
+/*header*/
+header {
+    height: 160px;
+}
+
+header img {
+    float: left;
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #aeaca8;
+    color: #fff;
+    height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+    color: #000;
+}
+
+/*main section*/
+.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid green;
+}
+
+.courses article {
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 30px;
+}
+
+h2,
+h3 {
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0px 5px;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+table tr:hover,
+#passed:hover {
+    background-color: #2554ad;
+    transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+#passed {
+    background-color: lightgray;
+}
+
+.courses {
+    border: none;
+}
+
+aside {
+    border-left: 1px solid green;
+}
+
+/*sidebar*/
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+
+aside h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+.contact {
+    padding-top: 30px;
+}
+
+aside article a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside article a:hover {
+    color: yellow;
+}
+
+/*footer*/
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
